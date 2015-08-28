@@ -1,0 +1,13 @@
+	Parameter:
+		--global
+			#die Einstellungen gelten für alle git-Anwender dieses Users auf diesem Rechner
+
+	git config --global user.name "golfi"
+		#der bei github.com gemappte Username sollte hier eingetragen werden.
+
+	git config --global user.email "bennizaschke@web.de"
+
+	git config --global credential.helper 'cache --timeout=30000'
+		#Damit nicht bei jedem push Benutzer und Passwort eingegeben werden muss werden die Daten für 30000 Sekunden gespeichert.
+
+	
