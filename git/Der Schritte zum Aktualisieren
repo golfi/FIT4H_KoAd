@@ -1,0 +1,14 @@
+Drei Schritte zum Aktualisieren:
+
+1. Schichersetellen, dass Sie in der Basis des verwalteten Verzeichnis
+sind (/home/pan/Dokumente/koad_fit4h)
+
+2.git add . -A
+	# . steht für das aktuelle Verzeichnis
+	# -A steht für alle geänderten, hinzugeführten, gelöschten Dateien
+
+3. git commit -am 'Was passiert ist'
+	# Bestätigung der Änderungen local
+
+4. git push origin master
+	# Hochladen der neuen Version auf den Server
