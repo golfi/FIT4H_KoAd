@@ -1,0 +1,7 @@
+Tastatur Befehle
+
+strg+l
+	#Löscht den Inhalt der Konsole
+
+Rechtsklick -> neuer Reiter
+	#neuer Reiter im Terminator
