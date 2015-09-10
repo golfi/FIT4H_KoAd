@@ -5,3 +5,6 @@ strg+l
 
 Rechtsklick -> neuer Reiter
 	#neuer Reiter im Terminator
+
+strg+n
+	#neue Textdatei anlegen
