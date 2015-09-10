@@ -1,21 +1,55 @@
 cd
-
+	#ermöglicht das Navigieren innerhalb des Dateisystems
 	cd ..
 		#ein Ordner zurück
+	cd ~
+		#geht direkt in den Ordner Pan
+	cd Dokumente
+		# relativer Pfad: vom aktuellen Standort aus
+	cd /home/pan/Downloads
+		# absolute Pfad: von der Wurzel / des Dateisystems anfangend
 
 mkdir
-	#Ordner anlegen
+	mkdir verzeichnis_01
+		#Unterordner anlegen
+	mkdir /home/pan/Dokumente/Verzeichnis_01
+		#anlegen mit absoluter Pfadangabe
 
 touch
+	touch name
 	#Dateien anlegen
 
-ls
+ls -l -la -lt
+	#Liste der enthaltenen Dateien und Verzeichnisse anzeigen lassen in verschiedenen Versionen
 
 cp
+	cp quelle ziel
+	cp datei3 datei4
+	#Die existierende Datei3 wird als Datei4 in dem befindlichen Verzeichnis neu erzeugt oder überschrieben
+
+	cp datei3 ~/Dokumente/datei3
+	#Datei wird in das angegebene Verzeichnis kopiert
+
+	cp -r unterordner unterordner2
+	#Kopiert den angegebenen Ordner mit Inhalt
+
+	cp *.txt unterverzeichnis
+	#kopiert alle Dateien mit der Endung .txt in das Ziel (Unterverzeichnis)
+	#der  * steht für beliebig viele Zeichen
 
 rm
 	#löscht Dateien und Verzeichnisse
 	rm -rf
 		#-r rekursive: von hier an alle Verzeichnisse
 		#-f force: alles wird ohne Nachfrage gelöscht
+
+less dateiname
+	less datei.txt
+	#zeigt die Datei seitenweise an
+	#beenden q
+	#weiterblättern Leertaste
+
+mv
+	mv datei_name
+	#move Umbenennen und Verschieben von Dateien und Ordnern
 

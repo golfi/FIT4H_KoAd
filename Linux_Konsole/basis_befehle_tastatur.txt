@@ -8,3 +8,6 @@ Rechtsklick -> neuer Reiter
 
 strg+n
 	#neue Textdatei anlegen
+
+q oder exit oder srtg+c
+	#Beenden
