@@ -11,3 +11,6 @@ strg+n
 
 q oder exit oder srtg+c
 	#Beenden
+
+Umschalt+Strg+7
+	#Auskommentieren
