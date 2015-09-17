@@ -1,0 +1,23 @@
+x --> löschen
+i --> text einfügen
+wq --> speichern und ende
+q! --> ohne Speichern beenden
+dw --> Wort löschen
+d$ --> löscht den Rest der Zeile
+dd --> löscht die ganze Zeile
+I  --> einfügen am Zeilenanfang
+A  --> einfügen am Zeilenende
+pp --> fügt Puffer ein
+
+
+***********Suchen****************************
+/Suchmuster			#sucht nach Suchmuster
+n 							#sucht weiter
+N 							#sucht zurück
+gg							#Deiteianfang
+G 							#Dateiende
+100G						#Springt in Zeile 100
+
+vim datei.txt
+	# öffnet den Editor über die Konsole
+	# vom beschreibung.txt
