@@ -1,0 +1,9 @@
+1. Archivieren
+	Beim Archivieren werden verschiedene Quellen (Dateien) sequentielle in einen Datenstrom geschrieben.
+	Der Sinn liegt in der Sicherung von Daten, etwa auf einem Magnetlaufband.
+	Es gibt drei Modi:
+		Erzeugen eines Archivs (Schalter: -c)
+		Inhalt eines Archivs anzuzeigen (-t)
+		Entpacken eines Archivs (-x)
+
+2. Komprimieren
