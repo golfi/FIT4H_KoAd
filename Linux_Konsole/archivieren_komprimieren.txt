@@ -6,4 +6,26 @@
 		Inhalt eines Archivs anzuzeigen (-t)
 		Entpacken eines Archivs (-x)
 
+		Archiv erzeugen
+			tar -cf <archivname.tar> <dateiennamen>
+			tar -cf <archivname.tar> <ordnername>
+			tar -czf <archivname.tar.gz> <ordnername>
+				#es wird ein Archiv erzeugt und komprimiert
+
+		Archiv anzeigen
+			less <archivname>
+			tar -tvf <archivname>
+
+		Archiv entpacken
+			tar -xf <archivname> 									#entpackt Archiv im aktuellen Verzeichnis
+			tar -xzf <archivname> 								#entpackt und extrahieren
+			tar -xzf <archivname>  -C /home/Docs 	#wird in Docs entpackt; Ordner muss vorhanden sein
+
 2. Komprimieren
+	Zwei unter Linux übliche Befehle:
+		compress
+		gzip
+
+	gzip erreicht eine bessere Komprimierung, so dass compress sukzessive verdrängt wird
+	Syntax:
+		gzip <dateiname>
