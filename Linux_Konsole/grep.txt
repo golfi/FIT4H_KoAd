@@ -82,7 +82,8 @@ grep ' eine ' Standort.txt
   
 14. Zeige mit dem Befehl dmesg alle HDDs an
 
-dmesg| grep disk
+dmesg| grep disk 
+(s|h)d[a-z]
   
 15. Liste mit dem Befehl ps aux alle terminator Prozesse auf
 
