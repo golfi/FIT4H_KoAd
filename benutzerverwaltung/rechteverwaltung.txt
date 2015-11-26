@@ -1,0 +1,27 @@
+Dateien und Ordner haben Besitzer.
+	d-wx-wx-wx  3 root gruppe1 4096 Nov 26 14:38 gruppe_1
+	In diesem Beispiel ist root der Besitzer und gruppe1 die Gruppe, die Beitzrechte an dem Ordner hat
+
+Ändern des Besitzers:
+	sudo chown root:gruppe1 gruppe_1
+	#Nach diesem Befehl hat der User root und die gruppe1 alle Besitzrechte an den Ordner gruppe_1
+
+Berechtigungen:
+Die 1 + 9 Zeichen am Anfang der Dateicharakterisierung nach dem Befehl ls -l geben Auskunft über die vorhandenen Berechtigungen
+d-wx-wx-wx  3 root gruppe1 4096 Nov 26 14:38 gruppe_17
+ r ->lesen
+ w ->schreiben
+ x ->ausführen
+
+Die Berechtigungen sind intern in Zweierpotenzen organisiert.
+	4 - lesen
+	2 - schreiben
+	1 - ausführen
+Die Ziffer 3 entspräche dann der Berechtigung  ausführen und Schreiben.
+		
+Ändern der Berechtigungen:
+		sudo chmod 754 gruppe 1
+			Für den Ordner gruppe1 gelten dann folgende Berechtigungen:
+				Besitzer: Schreiben, lesen, ausführen
+				Gruppe: lesen und ausführen
+				Others: lesen
